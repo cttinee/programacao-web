@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(211, 211, 212);}
+
+.links{
+    padding: 15px;
+    text-align:center;}
+
+a{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    background-color: rgb(34, 35, 36);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;}
+
+.login{
+    background-color: rgba(24, 36, 44, 0.6);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    border-radius: 15px;
+    color: antiquewhite;
+    text-align: left;}
+
+input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;}
+
+button{
+    background-color: rgb(43, 45, 48);
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 15px;}
+
+button:hover{
+        background-color: rgb(166, 166, 166);
+        cursor: pointer;}
+
+.inputbox{
+    position: relative;}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(24, 36, 44, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: antiquewhite;}
+
+fieldset{border: 3px solid rgb(100, 100, 100);}
+
+legend{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color:rgb(59, 60, 61);
+    border-radius: 8px;}
+
+.inputuser{
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: rgb(239, 239, 239);
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+\\*nao está funcionando*\\
+.inputuser:focus ~ .labelinput , 
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    
+}
+
+#data_de_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-color:rgb(207, 207, 207);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(250, 252, 255);
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(121, 124, 126);
+}
+
+/*página inicial*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.center{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    padding-top: 30px ;
+    width: 50%;
+    text-align: right;
+
+}
+
+.menu a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+html, body{
+    background-color: rgb(159, 157, 157);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right:-500px ;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: rgb(100, 100, 100);
+}
+
+.extras img{
+    width: 50%;
+}
+
+.redes-sociais{
+    position: absolute;
+    left: 610px;
+    top: 200px;
+}
+
+.redes-sociais img{
+    width: 45px;
+    display: block;
+    margin: 20px 0;
+
+}
+
+.redes-sociais a{
+    background: none;
+}
+
+.texto{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.texto h1{
+    font-size: 50px;
+    text-align: justify;
+
+}
+
+.texto p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.texto a{
+    border: 0;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+        background-color: rgb(132, 132, 132);
+        cursor: pointer;}
+
